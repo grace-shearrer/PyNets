@@ -116,8 +116,7 @@ if __name__ == '__main__':
     atlas_select=args.a
     basc=args.basc
     parlistfile=args.ua
-    pm0=args.pm.split(',')
-    procmem=list(pm0)
+    procmem=list(args.pm.split(','))
     NETWORK=args.n
     thr=args.thr
     node_size=args.ns
